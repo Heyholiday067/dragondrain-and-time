@@ -815,7 +815,7 @@ int main(int argc, char * argv[])
 	state->frames_per_burst = 1;
 	state->numclients = 256;
 
-	while ((ch = getopt(argc, argv, "d:v:c:a:g:r:b:n:i:mM:hf")) != -1)
+	while ((ch = getopt(argc, argv, "d:v:c:a:g:r:b:p:n:i:mM:hf")) != -1)
 	{
 		switch (ch)
 		{
